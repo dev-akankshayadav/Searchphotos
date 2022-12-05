@@ -1,0 +1,19 @@
+.img-container {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-right: 2px ;
+}
+
+.img-container img{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    border: none;
+    margin-top: 20px;
+    margin-right: 5px ;
+    background-color: burlywood;
+}
+

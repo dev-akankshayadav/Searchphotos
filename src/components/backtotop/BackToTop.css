@@ -1,0 +1,17 @@
+.btn-style{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: inset;
+    bottom: 50px;
+    right: 50px;
+    font-size: 25px;
+    background-color: gray;
+    color: aliceblue;
+    position: sticky;
+    margin-left: 88%;
+    cursor: pointer;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}

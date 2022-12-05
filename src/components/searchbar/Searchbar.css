@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    /* background-color: #191970; */
+    background-image: url("C:\Users\ALOK\Desktop\unspalsh-photos\search-photos\src\assets\images\backgroundimg.jpg");
+    background-size :cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    display: flex;
+    color:aliceblue;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255,255,255,0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturation(180%);
+
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px, 20px;
+    font-size: 20px;
+    color: aliceblue ;
+}
+::placeholder {
+    color: aliceblue;
+}
+
+.search-bar button span {
+    width: 30px;
+    font-size: 23px; ;
+    color:aliceblue;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #586296;
+    cursor: pointer;
+    
+}
+.img-container {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-right: 2px ;
+}
+
+.img-container img{
+    max-width:100%;
+    height:auto;
+    display: flex;
+    border: none;
+    margin-top: 20px;
+    margin-right: 5px ;
+    background-color: burlywood;
+}
+
+.img-container img:hover{
+  cursor: zoom-in;
+  background-color: antiquewhite;
+}
+
+.loadMore {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: gray;
+    transition: .3s;
+    cursor: pointer;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+.loadMore:hover {
+    color: gray;
+    background-color: #fff;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+
+ p{
+  margin-left: 10%;
+  font-weight: bold;
+ } 
+
+  
